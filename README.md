@@ -1,6 +1,6 @@
-LXC-Web-Panel
+ContainerManager
 =============
 
-LXC Web Panel repository
-
-## Visit http://lxc-webpanel.github.io/ for more informations
+Container Manager Repository
+Branched from LXC WebPanel
+## Visit http://lxc-webpanel.github.io/ for more information
