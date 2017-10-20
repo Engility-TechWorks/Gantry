@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechWorks - Container Manager</title>
+    <title>TechWorks - Gantry an Intuitive LXC Manager</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
 	<!-- Font Awesome CSS -->
@@ -12,43 +12,37 @@
 	
   </head>
   <body>
-	
-	<div class="row">
-		<div class="small-12 medium-10 medium-centered large-12 columns">
-			<div class="top-bar">
-				<div class="top-bar-left">
-					<ul class="vertical medium-horizontal menu">
-						<li class="menu-text">Gantry</li>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Get Started</a></li>
-						<li><a href="#">Features</a></li>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Screenshots</a></li>
-						<li><a href="#">About</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+  
+	<div class="off-canvas position-left reveal-for-medium" id="offCanvas" data-off-canvas>
+		<img class="side-logo float-center" src="images/gantry-sidenav-logo.png"/>
+		<!-- Menu -->
+		<ul class="vertical menu">
+		  <li class="active"><a href="index.html">Home</a></li>
+		  <li><a href="getstarted.html">Get Started</a></li>
+		  <li><a href="features.html">Features</a></li>
+		  <li><a href="faq.html">FAQ</a></li>
+		  <li><a href="screenshots.html">Screenshots</a></li>
+		  <li><a href="about.html">About</a></li>
+		</ul>
+
 	</div>
 
-	<br>
-	
+  <div class="off-canvas-content" data-off-canvas-content>
+    <!-- Your page content lives here -->
 	<div class="row">
 		<div class="small-12 medium-12 large-12 columns">
+			<a href="#" class="expanded button show-for-small-only" data-toggle="offCanvas">Menu</a>
+			<hr>
 			<div class="callout large primary">
 				<div class="row column text-center">
-					<h1>Gantry Conatainer Manager</h1>
+					<h1>Gantry</h1>
 					<h2 class="subheader">An Intuitive LXC Manager!</h2>
-					<a href="#" class="large primary button">Get Started</a>
+					<a href="getstarted.html" class="large primary button">Get Started</a>
 				</div>
 			</div>
-		</div>
-	</div>
-	
-	<hr>
-	
-	<div class="row">
-		<div class="small-12 medium-10 medium-centered large-10 large-centered columns">
+			
+			<hr>
+			
 			<div class="row">
 				<div class="small-12 medium-6 large-6 columns">
 					<dl>
@@ -67,18 +61,13 @@
 					</dl>
 				</div>
 			</div>
+			
+			<hr>
+			
+			<small>Gantry Container Manager - MIT License</small>
 		</div>
 	</div>
-	
-	<hr>
-
-	<div class="row">
-		<div class="small-12 medium-12 large-12 columns">
-			<p>&copy Container Manager 2017 - MIT License</p>
-		</div>
-	</div>
-
-
+  </div>
 
 
     <script src="js/vendor/jquery.js"></script>
