@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWorks - Gantry an Intuitive LXC Manager</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+	<!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+	
+  </head>
+  <body>
+  
+	<div class="off-canvas position-left reveal-for-medium" id="offCanvas" data-off-canvas>
+		<img class="side-logo float-center" src="images/gantry-sidenav-logo.png"/>
+		<!-- Menu -->
+		<ul class="vertical menu">
+		  <li><a href="index.html">Home</a></li>
+		  <li class="active"><a href="getstarted.html">Get Started</a></li>
+		  <li><a href="features.html">Features</a></li>
+		  <li><a href="faq.html">FAQ</a></li>
+		  <li><a href="screenshots.html">Screenshots</a></li>
+		  <li><a href="about.html">About</a></li>
+		</ul>
+
+	</div>
+
+  <div class="off-canvas-content" data-off-canvas-content>
+    <!-- Your page content lives here -->
+	<div class="row">
+		<div class="small-12 medium-12 large-12 columns">
+			<a href="#" class="expanded button show-for-small-only" data-toggle="offCanvas">Menu</a>
+			<hr>
+			<h4>Requirements <a href="https://github.com/Engility-TechWorks/Gantry" target="_blank" class="primary button float-right">Github Repository</a></h4>
+			<ul>
+				<li>Ubuntu 12.04 or higher</li>
+				<li>LXC 0.7 to 0.9</li>
+				<li><code>/var/lib/lxc</code> as LXC root path</li>
+			</ul>
+			
+			<hr>
+			
+			<h5>Automatic Installation <small>Recommended</small></h5>
+			<p>Copy/Paste the following code into your terminal<br>
+			<code>wget https://engility-techworks.github.io/Gantry/install.sh -O - | bash</code></p>
+			<p>Connect to your local at <strong>http://your-ip-address:5000/</strong><br>
+			Login with the following credentials: <strong>User:</strong> admin / <strong>Password:</strong> admin</p>
+			
+			<h5>Automatic Update</h5>
+			<p>Copy/Paste the following code into your terminal<br>
+			<code>wget https://engility-techworks.github.io/Gantry/update.sh -O - | bash</code></p>
+			
+			<hr>
+			
+			<h5>Manual Installation</h5>
+			<p>Clone our repository<br>
+			<code>git clone https://github.com/Engility-TechWorks/Gantry.git</code></p>
+			<p>Install Flask<br>
+			<code>pip install flask==0.9</code></p>
+			<p>Run Gantry<br>
+			<code>python lwp.py</code></p>
+			<p>Connect to your local at <strong>http://your-ip-address:5000/</strong><br>
+			Login with the following credentials: <strong>User:</strong> admin / <strong>Password:</strong> admin</p>
+			
+			<hr>
+			
+			<small>Gantry Container Manager - MIT License</small>
+		</div>
+	</div>
+  </div>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
